@@ -12,9 +12,9 @@ export default function Home(){
         <LoanCard title="Personal Loan" description="Quick approvals for personal needs" amountRange="$1,000 - $25,000" rate="from 8.9%" />
       </section>
 
-      <section className="mt-8 bg-white p-6 rounded-lg shadow">
-        <h3 className="text-xl font-semibold mb-2">Why choose us</h3>
-        <p className="text-gray-600">Transparent fees, fast approvals, and personalized service to help you get the right loan.</p>
+      <section className="mt-8 bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">Why choose us</h3>
+        <p className="text-gray-600 dark:text-gray-300">Transparent fees, fast approvals, and personalized service to help you get the right loan.</p>
       </section>
     </div>
   )
